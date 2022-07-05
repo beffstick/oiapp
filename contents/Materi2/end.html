@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selesai.</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/16e5861e05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore" style="margin: 1rem;"></h1>
+            <img src="assets/images/5failed.png" width="10%" id="failed" style="display: none;">
+            <img src="assets/images/4bronze.png" width="15%" id="bronze" style="display: none;">
+            <img src="assets/images/3silver.png" width="15%" id="silver" style="display: none;">
+            <img src="assets/images/2gold.png" width="15%" id="gold" style="display: none;">
+            <img src="assets/images/1perfect.png" width="15%" id="perfect" style="display: none;">
+            <!-- buat ganti sheet spreadsheet highscore -->
+            <form class="end-form-container" action="https://sheetdb.io/api/v1/fgqgh6iox8s3q?sheet=sheet3" method="POST" id="sheetdb-form">
+            <!-- bagian akhirnya ganti dengan nama sheet-->
+                <h2 id="end-text" style="color: #889FA5; margin: 1rem; font-size: 2rem;">Ketik nama untuk masuk ke papan peringkat!</h2>
+                <input name="data[score]" id="savedScore" value="" style="display: none;">
+                <input type="text" name="data[name]" id="username" placeholder="Ketik nama anda">
+                <button class="btn" id="saveScoreBtn" type="submit" disabled>Simpan</button>
+            </form>
+            <a href="game.html" class="btn">Main Lagi <i style="font-size: 2rem;" class="fa-solid fa-play"></i></a>
+            <a href="index.html" class="btn">Home <i style="font-size: 2rem;" class="fa-solid fa-house"></i></a>
+            <a href="/" class="btn">Dashboard</a>
+        </div>
+    </div>
+    <script src="assets/scripts/end.js"></script>
+</body>
+</html>
