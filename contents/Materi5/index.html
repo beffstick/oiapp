@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi 5</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/16e5861e05.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="home" class="flex-column flex-center">
+            <h1 style="text-align: center; font-size: 4.5rem;">
+                Macam-macam metadata dan format data <i style="font-size: 4.5rem;">Machine Readable Cataloging</i> (MARC)
+            </h1>
+            <!--Buat nambah alert tambahkan line dibawah-->
+            <!-- <div class="alert warning">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                Perhatian! Soal yang berkaitan dengan nomor klasifikasi sudah berdasarkan sistem klasifikasi DDC edisi 23!
+                <br>Untuk notasi Indonesia, silahkan gunakan notasi alternatif seperti 99221 untuk notasi 'Bahasa Indonesia'
+                <br>Silahkan download e-DDC: <a href="http://www.e-ddc.web.id/" target="_blank" style="font-size: 1.5rem;">disini!</a>
+            </div> -->
+            <!--Sampai Sini-->
+            <a href="game.html" class="btn">Mulai</a>
+            <a href="highscores.html" id="highscore-btn" class="btn">Papan Peringkat <i style="font-size: 2rem;"
+                    class="fas fa-medal"></i></a>
+            <a href="/" class="btn">Dashboard</a>
+        </div>
+    </div>
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+        
+        for (i = 0; i < close.length; i++) {
+          close[i].onclick = function(){
+            var div = this.parentElement;
+            div.style.opacity = "0";
+            setTimeout(function(){ div.style.display = "none"; }, 600);
+          }
+        }
+        </script>
+</body>
+
+</html>
