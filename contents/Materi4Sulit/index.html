@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi 4</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://kit.fontawesome.com/16e5861e05.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="home" class="flex-column flex-center">
+            <h1>
+                Perkembangan Aturan Pengkatalogan (Mulai Panizzi's 91 Rules s/d AACR2R98)
+                <br><a id="mode">(Mode Sulit)</a><!--<i style="font-size: 4rem;">Library of Congress</i> (1949) dan <i style="font-size: 4rem;">Anglo-American Cataloging Rules</i> (AACR2) Edisi Revisi 1988-->
+            </h1>
+            <div class="container2">
+                <div class="choice-container2">
+                    <p class="choice-prefix2" onclick="location.href='https:/beffstick.github.io/oiapp/contents/Materi4/index.html'">Materi<br>Sebelumnya</p>
+                </div>
+                <div class="choice-container3">
+                    <p class="choice-prefix2" onclick="location.href='https:/beffstick.github.io/oiapp/contents/Materi5/index.html'">Materi<br>Selanjutnya</p>
+                </div>
+            </div>
+            <!--Buat nambah alert tambahkan line dibawah-->
+            <!-- <div class="alert warning">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                Perhatian! Soal yang berkaitan dengan nomor klasifikasi sudah berdasarkan sistem klasifikasi DDC edisi 23!
+                <br>Untuk notasi Indonesia, silahkan gunakan notasi alternatif seperti 99221 untuk notasi 'Bahasa Indonesia'
+                <br>Silahkan download e-DDC: <a href="http://www.e-ddc.web.id/" target="_blank" style="font-size: 1.5rem;">disini!</a>
+            </div> -->
+            <!--Sampai Sini-->
+            <a href="game.html" class="btn">Mulai</a>
+            <a href="highscores.html" id="highscore-btn" class="btn">Papan Peringkat <i style="font-size: 2rem;"
+                    class="fas fa-medal"></i></a>
+            <a href="https://beffstick.github.io/oiapp/" class="btn">Dashboard</a>
+        </div>
+    </div>
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+        
+        for (i = 0; i < close.length; i++) {
+          close[i].onclick = function(){
+            var div = this.parentElement;
+            div.style.opacity = "0";
+            setTimeout(function(){ div.style.display = "none"; }, 600);
+          }
+        }
+        </script>
+</body>
+
+</html>
