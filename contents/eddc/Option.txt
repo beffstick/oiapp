@@ -1,0 +1,18 @@
+Option!
+
+
+If you want to deactivate "Basmalah" feature on e-DDC because of any reason,  
+you can follow this instructions below:
+
+- Open C:\Program Files\e-DDC\e-DDC Edition 23* (default installation),
+
+- Remove Basmalah.mp3 file,  
+
+- Reload e-DDC on your desktop.
+
+
+Peace be with you.
+Respectfully yours,
+
+
+Rotmianto Mohamad 

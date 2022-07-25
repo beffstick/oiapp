@@ -1,0 +1,46 @@
+>>> Gunakan RESOLUSI LAYAR 1024 x 768 pixels untuk TAMPILAN TERBAIK!!!
+
+
+WARNING: 
+
+(1) Installer Software e-DDC sudah dipastikan TIDAK mengandung virus. 
+      Apabila antivirus di komputer Anda  mendeteksi e-DDC Edition 23 
+      sebagai suspect  virus tidak  perlu khawatir, itu  hanya karena  
+      database  antivirus di komputer Anda  belum mengenali  freeware
+      e-DDC Edition 23. 
+
+(2) DILARANG  MENDECOMPILE ATAU  MENGCOMPILE ULANG  e-DDC Edition 23 
+      DENGAN ALASAN APAPUN! 
+
+(3) Gunakan RESOLUSI LAYAR 1024 x 768 pixels  untuk TAMPILAN TERBAIK! 
+
+
+PETUNJUK MENGGANTI ICON e-DDC Edition 23: 
+
+Setelah  instalasi, tampilan icon e-DDC pada desktop  masih default.
+Gunakan cara ini  untuk mengganti icon:
+ 
+(1) Pada desktop, klik kanan icon "e-DDC Edition 23",
+ 
+(2) Pilih "Properties", klik "Change Icon", 
+
+(3) Klik "Browse", klik "Look In" pilih "[C:]"/drive "C" 
+      (untuk instalasi default), 
+
+(4) Klik "Program Files", 
+
+(5) Pilih folder "e-DDC", buka folder "e-DDC Edition 23",
+
+(6) Kemudian pilih salah satu icon diantara icon yang disediakan,
+
+(7) Klik "Open" kemudian klik "Ok", 
+
+(8) Selesai,
+
+(9) Selamat mencoba, selamat berkarya dan semoga sukses.
+
+
+Salam damai,
+
+
+Rotmianto Mohamad 
